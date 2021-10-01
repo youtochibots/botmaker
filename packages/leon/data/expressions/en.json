@@ -78,13 +78,15 @@
     }
   },
 	"miembrosfamiliaveracruz": {
-		"miembros_familia_veracruz": [
-			"Chirry.",
-			"Guerito.",
-      "Arnold.",
-      "Alfonso.",
-      "Carlos."
-		]
+   "run": {
+      "expressions": [
+        "Member of the familiy in Veracruz?",
+        "Psrt of the Family in veracruz",
+        "Is part of the Family in veracruz",
+        "vive en depa Veracruz",
+        "Vive en Veracruz"
+      ]
+   }  
 	},    
   "partnerassistant": {
     "run": {
