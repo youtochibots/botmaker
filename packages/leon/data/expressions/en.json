@@ -77,6 +77,15 @@
       ]
     }
   },
+	"miembrosfamiliaveracruz": {
+		"miembros_familia_veracruz": [
+			"Chirry.",
+			"Guerito."
+      "Arnold."
+      "Alfonso."
+      "Carlos."
+		]
+	},    
   "partnerassistant": {
     "run": {
       "expressions": [
