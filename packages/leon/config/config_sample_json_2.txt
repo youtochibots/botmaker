@@ -1,1 +1,29 @@
- "miembrosfamiliaveracruz": {   "options": {}      },    "partnerassistant": {  
+{
+  "whoami": {
+    "options": {}
+  },
+  "joke": {
+    "options": {}
+  },
+  "greeting": {
+    "options": {}
+  },
+  "bye": {
+    "options": {}
+  },
+  "welcome": {
+    "options": {}
+  },
+  "meaningoflife": {
+    "options": {}
+  },
+  "randomnumber": {
+    "options": {}
+  },
+  "miembrosfamiliaveracruz": {
+    "options": {}
+  },
+   "miembrosfamiliaveracruz": {   "options": {}      },    "partnerassistant": {  
+    "options": {}
+  }
+}
