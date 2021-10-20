@@ -1,1 +1,1 @@
-	"miembrosfamiliaveracruz": {   "miembros_familia_veracruz": [   \"tochi.\",  \"carlos.\",  \"arnold.\",  \"leonardo.\",  \"alfonso.\",  \"tomas.\",   "Flaco."   	]     },         "partnerassistant": {
+	"miembrosfamiliaveracruz": {   "miembros_familia_veracruz": [   "tochi.",  "carlos.",  "leonardo.",  "alfonso.",  "arnold.",  "tomas.",   "Flaco."   	]     },         "partnerassistant": {
