@@ -88,7 +88,7 @@
       ]
    }  
 	},    
-   "miembrosfamiliaveracruz": {   "run": {    "expressions": [   "esta expresion uno.",  "es la expresion dos.",  "donde estan viviendo.",    ]    }  },     "partnerassistant": {  
+   "miembrosfamiliaveracruz": {   "run": {    "expressions": [   "es la expresion dos.",  "donde estan viviendo.",  "esta expresion uno.",    ]    }  },     "partnerassistant": {  
     "run": {
       "expressions": [
         "Do you have something to say about Alexa?",
