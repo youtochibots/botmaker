@@ -69,7 +69,7 @@ Sounds good for you? Then let's get started!
 
 Gitpod will automatically setup an environment and run an instance for you.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/youtochibots/bot)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/youtochibots/botmaker)
 
 ## 🚀 Getting Started
 
