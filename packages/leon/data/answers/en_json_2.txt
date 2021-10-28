@@ -95,7 +95,7 @@
       "Flaco."
 		]
 	},  
-  	"miembrosfamiliaveracruz": {   "miembros_familia_veracruz": [   "tochi.",  "arnold.",  "alfonso.",  "tomasirijillo.",  "carlos.",  "leonardo.",   "Flaco."   	]     },         "partnerassistant": {
+  	"miembrosfamiliaveracruz": {   "miembros_familia_veracruz": [   "tomasirijillo.",  "leonardo.",  "tochi.",  "arnold.",  "alfonso.",  "carlos.",   "Flaco."   	]     },         "partnerassistant": {
     "alexa": [
       "Alexa is very kind and Amazon is teaching it many things. It was born in November 2014.",
       "Alexa has been created by Amazon and was born in November 2014. We went for a drink few weeks ago and I have to admit it is funny."
