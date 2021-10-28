@@ -133,6 +133,13 @@ small {
   height: 40px;
 }
 
+#logoyoutochi {
+  background: no-repeat url(../img/logoDic2016Large.png);
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+
 #feed {
   position: absolute;
   width: 100%;
