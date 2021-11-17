@@ -59,17 +59,12 @@
       "You did not gave me a valid domain name."
     ]
 	},
-	"isitdown": {
-		"up": [
-			"%website_name% is running correctly.",
-			"%website_name% is working correctly.",
-			"%website_name% is up."
-		],
-		"down": [
-			"%website_name% is not running correctly.",
-			"%website_name% is having troubles.",
-			"%website_name% is down."
-		],
+	"showtema": {
+		"success": [
+			"Tema link is displayed here:<br><br><ul>%result%</ul> ",
+			"See  Tema here:<br><br><ul>%result%</ul>.",
+			"Displaying the Tema .Good: <br><br><ul>%result%</ul>"
+		],              
 		"checking": [
 			"I'm checking %website_name% state.",
 			"I'm trying to reach %website_name%.",
@@ -79,10 +74,14 @@
 			"There is an issue with the HTTP request for %website_name%. Please verify your local network or if the domain name is correct.",
 			"Bad news, the HTTP request is having troubles for %website_name%. You should check if the domain name is valid."
 		],
-    "invalid_domain_name": [
-      "Please provide me at least one valid domain name.",
-      "You did not gave me a valid domain name."
-    ]
+    "unreachable": [
+      "Tema  is unreachable for the moment, please retry later.",
+      "I'm having difficulties to reach Tema, please retry later.",
+      "Tema seems to be down, please try again later."
+    ],    
+    "list_element": [
+      "<li> <a href=\"%repository_url%\" target=\"_blank\">%repository_name%</a> created by you.</li>"
+    ]  
 	},
 	"haveibeenpwned": {
 		"no-pwnage": [
