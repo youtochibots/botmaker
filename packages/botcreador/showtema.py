@@ -49,7 +49,7 @@ def run(string, entities):
 
 	# Will synchronize the content (because "end" type) if synchronization enabled
 	#return utils.output('end', 'success', utils.translate('success'))
-	return utils.output('end', 'success', utils.translate(success', {
+	return utils.output('end', 'success', utils.translate('success', {
 				'result': result
 			}
 		)
