@@ -1,4 +1,20 @@
 {
+	"creabot": {
+    "run": {
+      "expressions": [
+        "create bot nuevobot",
+        "new bot nuevobot"
+      ]
+    }
+  },
+	"createmabot": {
+    "run": {
+      "expressions": [
+        "bot nuevobotname add new tema nombretema",
+        "new tema nombretemabot bot nuevobot"
+      ]
+    }
+  },
 	"isitdown": {
     "run": {
       "expressions": [
