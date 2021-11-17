@@ -4,5 +4,8 @@
 	},
   "createmabot": {
     "options": {}
+  },
+  "showtema": {
+    "options": {}
   }
 }
