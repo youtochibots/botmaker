@@ -19,10 +19,11 @@ def run(string, entities):
 	# url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=' + playlistid + '&key=' + apikey
 
 	url = 'https://youtochipizarron.herokuapp.com/entrenar'
-	
+	result = ''	
 	utils.output('inter', 'checking', utils.translate('checking'))
 	# call the url to create a github bot branch/repository
 	try:
+
 		r = utils.http('GET', url)
 
 		# In case there is a problem like wrong settings
@@ -33,7 +34,12 @@ def run(string, entities):
 				'message': error['message']
 			}))
 
-
+		result += utils.translate('list_element', {
+				'rank': i + 1,
+				'repository_url': 'https://youtochipizarron.herokuapp.com/nombreBot_nombreDelTema',
+				'repository_name': 'nombreBot_nombreDelTema'
+			}
+		)
 	# 	items = r.json()['rooms']
 
 
@@ -42,4 +48,9 @@ def run(string, entities):
 
 
 	# Will synchronize the content (because "end" type) if synchronization enabled
-	return utils.output('end', 'success', utils.translate('success'))
+	#return utils.output('end', 'success', utils.translate('success'))
+	return utils.output('end', 'success', utils.translate(success', {
+				'result': result
+			}
+		)
+	)
