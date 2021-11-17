@@ -26,12 +26,12 @@ def run(string, entities):
 		r = utils.http('GET', url)
 
 		# In case there is a problem like wrong settings
-		if 'error' in r.json():
-			error = r.json()['error']['errors'][0]
-			return utils.output('settings_error', 'settings_error', utils.translate('settings_errors', {
-				'reason': error['reason'],
-				'message': error['message']
-			}))
+		#if 'error' in r.json():
+		#	error = r.json()['error']['errors'][0]
+		#	return utils.output('settings_error', 'settings_error', utils.translate('settings_errors', {
+		#		'reason': error['reason'],
+		#		'message': error['message']
+		#	}))
 
 
 	# 	items = r.json()['rooms']
