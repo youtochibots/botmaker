@@ -34,7 +34,7 @@ def run(string, entities):
 			}))
 
 
-		items = r.json()['rooms']
+	# 	items = r.json()['rooms']
 
 
 	except requests.exceptions.RequestException as e:
