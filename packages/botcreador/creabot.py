@@ -27,7 +27,9 @@ def run(string, entities):
 	
 	url = 'https://youtochibotas.herokuapp.com/v1/api/redisroomallcards/miembrosfamiliaveracruz-cards' 
 	
-	utils.output('inter', 'checking', utils.translate('checking'))
+	utils.output('inter', 'checking', utils.translate('checking',{
+		'website_name': url
+	}))
 	# call the url to create a github bot branch/repository
 	try:
 		r = utils.http('GET', url)
