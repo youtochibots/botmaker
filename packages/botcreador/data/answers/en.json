@@ -31,9 +31,9 @@
 	},
 	"createmabot": {
 		"success": [
-			"Tema had been added to Bot.",
-			"New Tema was added to bot.",
-			"Bot has a new Tema Created.Good."
+			"Tema \"%nuevotema%\" had been added to Bot \"%nuevobot%\".",
+			"New Tema \"%nuevotema%\" was added to bot \"%nuevobot%\".",
+			"Bot \"%nuevobot%\" has now a new Tema \"%nuevotema%\" was created.Good."
 		],              
 		"up": [
 			"%website_name% is running correctly.",
