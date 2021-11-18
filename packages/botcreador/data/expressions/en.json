@@ -2,9 +2,9 @@
 	"creabot": {
     "run": {
       "expressions": [
-        "create bot nuevobot",
-        "create bot with name nuevobot",
-        "bot new nuevobot"
+        "create bot x",
+        "create bot with name x",
+        "bot new x"
       ],
       "entities": [
         {
