@@ -1,20 +1,15 @@
 {
-	"creabot": {
+	"creadata": {
     "run": {
       "expressions": [
-        "create bot x",
-        "create bot with name x",
-        "bot new x"
+        "create datasource with name x",
+        "create datasource new x"
       ],
       "entities": [
         {
           "type": "trim",
-          "name": "nuevobot",
+          "name": "nuevodata",
           "conditions": [
-            {
-              "type": "after",
-              "from": "bot"
-            },
             {
               "type": "after",
               "from": "name"
@@ -22,43 +17,43 @@
             {
               "type": "after",
               "from": "new"
-            }
+            }            
           ]
         }
       ]
     }
   },
-	"createmabot": {
+	"creaapi": {
     "run": {
       "expressions": [
-        "bot x add y tema ",
-        "add y tema   into x bot"
+        "create api x data y",
+        "create api x add data y",
+        "add api x  data y"
       ],
       "entities": [
         {
           "type": "trim",
-          "name": "elbot",
+          "name": "elapi",
           "conditions": [
             {
               "type": "between",
-              "from": "bot",
-              "to":   "add"
+              "from": "api",
+              "to":   "data"
             },
             {
               "type": "between",
-              "from": "into",
-              "to"  : "bot"
+              "from": "api",
+              "to"  : "add"
             }
           ]
         },
         {
           "type": "trim",
-          "name": "eltema",
+          "name": "eldata",
           "conditions": [
             {
-              "type": "between",
-              "from": "add",
-              "to":   "tema"
+              "type": "after",
+              "from": "data"
             }
           ]
         }        
