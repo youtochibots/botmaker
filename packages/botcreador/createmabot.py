@@ -19,7 +19,8 @@ def run(string, entities):
 	# url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=' + playlistid + '&key=' + apikey
 	nombrebot = ''
 	nombretema = ''
-	
+	result = ''	
+		
 	for item in entities:
 		if item['entity'] == 'elbot':
 			nombrebot = item['sourceText'].lower()
@@ -47,7 +48,11 @@ def run(string, entities):
 
 
 	# 	items = r.json()['rooms']
-
+		result += utils.translate('list_element', {
+				'repository_url': url,
+				'repository_name': nombrebot + '_' + nombretema
+			}
+		)
 
 	except requests.exceptions.RequestException as e:
 		return utils.output('request_error', 'request_error', utils.translate('request_errors'))
@@ -56,5 +61,6 @@ def run(string, entities):
 	# Will synchronize the content (because "end" type) if synchronization enabled
 	return utils.output('end', 'success', utils.translate('success', {
 	  'nuevobot': nombrebot,
-	  'nuevotema': nombretema
+	  'nuevotema': nombretema,
+	  'result': result		
 	}))
