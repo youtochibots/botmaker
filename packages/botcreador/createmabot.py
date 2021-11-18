@@ -17,10 +17,22 @@ def run(string, entities):
 	# playlistid = utils.config('playlist_id')
 	# https://developers.google.com/youtube/v3/docs/playlistItems/list
 	# url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=' + playlistid + '&key=' + apikey
-
-	url = 'https://youtochipizarron.herokuapp.com/entrenar'
+	nombrebot = ''
+	nombretema = ''
 	
-	utils.output('inter', 'checking', utils.translate('checking'))
+	for item in entities:
+		if item['entity'] == 'elbot':
+			nombrebot = item['sourceText'].lower()
+
+	for item in entities:
+		if item['entity'] == 'eltema':
+			nombretema = item['sourceText'].lower()
+
+	url = 'https://youtochipizarron.herokuapp.com/' + nombrebot + '_' + nombretema
+	
+	utils.output('inter', 'checking', utils.translate('checking',{
+		'website_name': url
+	}))
 	# call the url to create a github bot branch/repository
 	try:
 		r = utils.http('GET', url)
@@ -42,4 +54,7 @@ def run(string, entities):
 
 
 	# Will synchronize the content (because "end" type) if synchronization enabled
-	return utils.output('end', 'success', utils.translate('success'))
+	return utils.output('end', 'success', utils.translate('success'), {
+	  'nuevobot': nombrebot,
+	  'nuevotema': nombretema
+	})
