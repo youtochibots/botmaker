@@ -1,9 +1,9 @@
 {
 	"creabot": {
 		"success": [
-			"Bot had been creted.",
-			"New bot is now available.",
-			"Bot Created.Good."
+			"Bot \"%nuevobot%\" had been creted.",
+			"New bot \"%nuevobot%\" is now available.",
+			"Bot \"%nuevobot%\" Created.Good."
 		],              
 		"up": [
 			"%website_name% is running correctly.",
