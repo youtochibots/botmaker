@@ -31,8 +31,37 @@
 	"createmabot": {
     "run": {
       "expressions": [
-        "bot nuevobotname add new tema nombretema",
-        "add new tema nombretemabot bot nuevobot"
+        "bot x add y tema ",
+        "add y tema   into x bot"
+      ],
+      "entities": [
+        {
+          "type": "trim",
+          "name": "elbot",
+          "conditions": [
+            {
+              "type": "between",
+              "from": "bot",
+              "to":   "add"
+            },
+            {
+              "type": "between",
+              "from": "into",
+              "to"  : "bot"
+            }
+          ]
+        },
+        {
+          "type": "trim",
+          "name": "eltema",
+          "conditions": [
+            {
+              "type": "between",
+              "from": "add",
+              "to":   "tema"
+            }
+          ]
+        }        
       ]
     }
   },
