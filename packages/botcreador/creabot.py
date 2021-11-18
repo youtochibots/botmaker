@@ -21,7 +21,7 @@ def run(string, entities):
 	
 	for item in entities:
 		if item['entity'] == 'nuevobot':
-			nombrebot = item['resolution']['value'].lower()
+			nombrebot = item['sourceText'].lower()
 			
 	# url = 'https://youtochipizarron.herokuapp.com/entrenar' + nombrebot
 	
@@ -49,4 +49,6 @@ def run(string, entities):
 
 
 	# Will synchronize the content (because "end" type) if synchronization enabled
-	return utils.output('end', 'success', utils.translate('success'))
+	return utils.output('end', 'success', utils.translate('success', {
+	  'nuevobot': nombrebot
+	}))
