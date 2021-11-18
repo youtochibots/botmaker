@@ -3,17 +3,38 @@
     "run": {
       "expressions": [
         "create bot nuevobot",
-        "new bot nuevobot"
-      ]
+        "create bot with name nuevobot",
+        "bot new nuevobot"
+      ],
+      "entities": [
+        {
+          "type": "trim",
+          "name": "nuevobot",
+          "conditions": [
+            {
+              "type": "after",
+              "from": "bot"
+            },
+            {
+              "type": "after",
+              "from": "name"
+            },
+            {
+              "type": "after",
+              "from": "new"
+            }
+          ]
+        }
+      ]  
     }
   },
 	"createmabot": {
     "run": {
       "expressions": [
         "bot nuevobotname add new tema nombretema",
-        "new tema nombretemabot bot nuevobot"
+        "add new tema nombretemabot bot nuevobot"
       ]
-    }
+    },
   },
 	"showtema": {
     "run": {
