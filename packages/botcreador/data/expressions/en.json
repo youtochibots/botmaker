@@ -5,27 +5,7 @@
         "create bot x",
         "create bot with name x",
         "bot new x"
-      ],
-      "entities": [
-        {
-          "type": "trim",
-          "name": "nuevobot",
-          "conditions": [
-            {
-              "type": "after",
-              "from": "bot"
-            },
-            {
-              "type": "after",
-              "from": "name"
-            },
-            {
-              "type": "after",
-              "from": "new"
-            }
-          ]
-        }
-      ]  
+      ]
     }
   },
 	"createmabot": {
