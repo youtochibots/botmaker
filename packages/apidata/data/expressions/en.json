@@ -60,11 +60,11 @@
       ]
     }
   },
-	"showtema": {
+	"showlinks": {
     "run": {
       "expressions": [
-        "bot show tema nombretema",
-        "show tema nombretema bot nuevobot"
+        " show api link",
+        "show link api"
         
       ]
     }
