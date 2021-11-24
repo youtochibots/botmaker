@@ -1,4 +1,4 @@
-describe('botcreador:creabot', async () => {
+describe('apidata:creaapi', async () => {
   test('detects invalid domain name', async () => {
     global.nlu.brain.execute = jest.fn()
     await global.nlu.process('Check if github is up')
