@@ -1,11 +1,11 @@
 {
-	"creabot": {
+	"creaapi": {
 		"options": {}
 	},
-  "createmabot": {
+  "creadata": {
     "options": {}
   },
-  "showtema": {
+  "showlinks": {
     "options": {}
   }
 }
