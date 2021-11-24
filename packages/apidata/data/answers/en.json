@@ -1,9 +1,9 @@
 {
-	"creabot": {
+	"creaapi": {
 		"success": [
-			"Bot \"%nuevobot%\" had been creted.",
-			"New bot \"%nuevobot%\" is now available.",
-			"Bot \"%nuevobot%\" Created.Good."
+			"Api \"%nuevoapi%\" had been creted.",
+			"New api \"%nuevoapi%\" is now available.",
+			"api \"%nuevoapi%\" Created.Good."
 		],              
 		"up": [
 			"%website_name% is running correctly.",
@@ -29,11 +29,11 @@
       "You did not gave me a valid domain name."
     ]
 	},
-	"createmabot": {
+	"creadata": {
 		"success": [
-			"Tema \"%nuevotema%\" had been added to Bot \"%nuevobot%\". Link is displayed here:<br><br><ul>%result%</ul>",
-			"New Tema \"%nuevotema%\" was added to bot \"%nuevobot%\". Link is displayed here:<br><br><ul>%result%</ul>",
-			"Bot \"%nuevobot%\" has now a new Tema \"%nuevotema%\" was created.Good. Link is displayed here:<br><br><ul>%result%</ul>"
+			"Data \"%nuevodata%\" had been added to api \"%nuevoapi%\". Link is displayed here:<br><br><ul>%result%</ul>",
+			"New Data \"%nuevodata%\" was added to bot \"%nuevoapi%\". Link is displayed here:<br><br><ul>%result%</ul>",
+			"Api \"%nuevoapi%\" has now a new data  \"%nuevodata%\" was created.Good. Link is displayed here:<br><br><ul>%result%</ul>"
 		],              
 		"up": [
 			"%website_name% is running correctly.",
@@ -62,11 +62,11 @@
       "You did not gave me a valid domain name."
     ]
 	},
-	"showtema": {
+	"showlinks": {
 		"success": [
-			"Tema link is displayed here:<br><br><ul>%result%</ul> ",
-			"See  Tema here:<br><br><ul>%result%</ul>.",
-			"Displaying the Tema .Good: <br><br><ul>%result%</ul>"
+			"Api link is displayed here:<br><br><ul>%result%</ul> ",
+			"See  link here:<br><br><ul>%result%</ul>.",
+			"Displaying the Api .Good: <br><br><ul>%result%</ul>"
 		],              
 		"checking": [
 			"I'm checking %website_name% state.",
