@@ -8,7 +8,7 @@ from time import time
 from pytube import YouTube
 
 def run(string, entities):
-	"""Call a url to create a bot in github"""
+	"""Call a url to create a datasource in github"""
 
 	# db = utils.db()['db']
 	# query = utils.db()['query']
@@ -17,20 +17,20 @@ def run(string, entities):
 	# playlistid = utils.config('playlist_id')
 	# https://developers.google.com/youtube/v3/docs/playlistItems/list
 	# url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=' + playlistid + '&key=' + apikey
-	nombrebot = ''
+	nombredata = ''
 	
 	for item in entities:
-		if item['entity'] == 'nuevobot':
-			nombrebot = item['sourceText'].lower()
+		if item['entity'] == 'nuevodata':
+			nombredata = item['sourceText'].lower()
 			
-	# url = 'https://youtochipizarron.herokuapp.com/entrenar' + nombrebot
+	# url = 'https://youtochipizarron.herokuapp.com/entrenar' + nombredata
 	
 	url = 'https://youtochibotas.herokuapp.com/v1/api/redisroomallcards/miembrosfamiliaveracruz-cards' 
 	
 	utils.output('inter', 'checking', utils.translate('checking',{
 		'website_name': url
 	}))
-	# call the url to create a github bot branch/repository
+	# call the url to create a github api branch/repository
 	try:
 		r = utils.http('GET', url)
 
@@ -52,5 +52,5 @@ def run(string, entities):
 
 	# Will synchronize the content (because "end" type) if synchronization enabled
 	return utils.output('end', 'success', utils.translate('success', {
-	  'nuevobot': nombrebot
+	  'nuevoapi': nombreapi
 	}))
