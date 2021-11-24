@@ -8,7 +8,7 @@ from time import time
 from pytube import YouTube
 
 def run(string, entities):
-	"""Call a url to create a bot in github"""
+	"""Display the api link"""
 
 	# db = utils.db()['db']
 	# query = utils.db()['query']
@@ -35,8 +35,8 @@ def run(string, entities):
 		#	}))
 
 		result += utils.translate('list_element', {
-				'repository_url': 'https://youtochipizarron.herokuapp.com/nombreBot_nombreDelTema',
-				'repository_name': 'nombreBot_nombreDelTema'
+				'repository_url': 'https://youtochipizarron.herokuapp.com/nombreApi_nombreDataSource',
+				'repository_name': 'nombreApi_nombreDatasource'
 			}
 		)
 	# 	items = r.json()['rooms']
