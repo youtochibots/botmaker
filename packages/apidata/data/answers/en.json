@@ -1,9 +1,10 @@
 {
 	"creaapi": {
 		"success": [
-			"Api \"%nuevoapi%\" had been creted.",
-			"New api \"%nuevoapi%\" is now available.",
-			"api \"%nuevoapi%\" Created.Good."
+			"Data \"%nuevodata%\" had been added to api \"%nuevoapi%\". Link is displayed here:<br><br><ul>%result%</ul>",
+			"New Data \"%nuevodata%\" was added to bot \"%nuevoapi%\". Link is displayed here:<br><br><ul>%result%</ul>",
+			"Api \"%nuevoapi%\" has now a new data  \"%nuevodata%\" was created.Good. Link is displayed here:<br><br><ul>%result%</ul>"
+
 		],              
 		"up": [
 			"%website_name% is running correctly.",
@@ -31,9 +32,9 @@
 	},
 	"creadata": {
 		"success": [
-			"Data \"%nuevodata%\" had been added to api \"%nuevoapi%\". Link is displayed here:<br><br><ul>%result%</ul>",
-			"New Data \"%nuevodata%\" was added to bot \"%nuevoapi%\". Link is displayed here:<br><br><ul>%result%</ul>",
-			"Api \"%nuevoapi%\" has now a new data  \"%nuevodata%\" was created.Good. Link is displayed here:<br><br><ul>%result%</ul>"
+			"Data \"%nuevodata%\" had been creted.",
+			"New data \"%nuevodata%\" is now available.",
+			"Data \"%nuevodata%\" Created.Good."      
 		],              
 		"up": [
 			"%website_name% is running correctly.",
