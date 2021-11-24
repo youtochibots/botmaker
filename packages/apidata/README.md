@@ -1,31 +1,33 @@
-# BOT CREADOR Package
+# API CREADOR Package
 
-The botcreador package contains modules which include checkings.
+The apidata package contains modules which include creation of APIs and creation of datasources checkings.
 
 ## Modules
 
-### Crear un bot en github
+### Crear un API en github
 
-Call a url in an end point that create a bot in github.
+Call a url in an end point that create an API in github.
 
 #### Usage
 
 ```
-(en-US) "Create bot nuevobotnombre"
-(en-US) "Create new bot with name nuevobotnombre"
+(en-US) "Create api nuevoAPInombre with data datasourceName"
+(en-US) "Create new api with name nuevoAPInombre  with data datasourceName"
 
-(fr-FR) "Crear un nuevo bot con el nombre nuevobotnombre"
+(fr-FR) "Crear un nuevo api con el nombre nuevoAPInombre  with data datasourceName"
 ...
 ```
 
-### Agreagr un tema en un bot en Pizzaron
+### Agreagr un datasource en un API
 
 Call a url in Pizzaron with bot name and the new tema.
 
 #### Usage
 
 ```
-(en-US) "bot nuevobotname add new tema nombretema"
+(en-US) "Create data nuevoDataSourceNombre"
+(en-US) "Create new data  with name nuevoDataSourcenombre"
 
+(fr-FR) "Crear un nuevo data con el nombre nuevoDataSourcenombre"
+...
 ```
-
