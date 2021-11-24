@@ -8,7 +8,7 @@ from time import time
 from pytube import YouTube
 
 def run(string, entities):
-	"""Call a url to create a bot in github"""
+	"""Call a url to create a api  in github"""
 
 	# db = utils.db()['db']
 	# query = utils.db()['query']
@@ -17,24 +17,24 @@ def run(string, entities):
 	# playlistid = utils.config('playlist_id')
 	# https://developers.google.com/youtube/v3/docs/playlistItems/list
 	# url = 'https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=' + playlistid + '&key=' + apikey
-	nombrebot = ''
-	nombretema = ''
+	nombreapi = ''
+	nombredata = ''
 	result = ''	
 		
 	for item in entities:
-		if item['entity'] == 'elbot':
-			nombrebot = item['sourceText'].lower()
+		if item['entity'] == 'elapi':
+			nombreapi = item['sourceText'].lower()
 
 	for item in entities:
-		if item['entity'] == 'eltema':
+		if item['entity'] == 'eldata':
 			nombretema = item['sourceText'].lower()
 
-	url = 'https://youtochipizarron.herokuapp.com/' + nombrebot + '_' + nombretema
+	url = 'https://youtochipizarron.herokuapp.com/' + nombreapi + '_' + nombredata
 	
 	utils.output('inter', 'checking', utils.translate('checking',{
 		'website_name': url
 	}))
-	# call the url to create a github bot branch/repository
+	# call the url to create a github api branch/repository
 	try:
 		r = utils.http('GET', url)
 
@@ -50,7 +50,7 @@ def run(string, entities):
 	# 	items = r.json()['rooms']
 		result += utils.translate('list_element', {
 				'repository_url': url,
-				'repository_name': nombrebot + '_' + nombretema
+				'repository_name': nombreapi + '_' + nombredata
 			}
 		)
 
@@ -60,7 +60,7 @@ def run(string, entities):
 
 	# Will synchronize the content (because "end" type) if synchronization enabled
 	return utils.output('end', 'success', utils.translate('success', {
-	  'nuevobot': nombrebot,
-	  'nuevotema': nombretema,
+	  'nuevoapi': nombreapi,
+	  'nuevodata': nombredata,
 	  'result': result		
 	}))
