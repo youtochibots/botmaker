@@ -65,6 +65,32 @@
       ]
     }
   },
+	"activabot": {
+    "run": {
+      "expressions": [
+        "start bot x",
+        "start bot with name x",
+        "start new  bot x"
+      ],
+      "entities": [
+        {
+          "type": "trim",
+          "name": "nuevobot",
+          "conditions": [
+            {
+              "type": "after",
+              "from": "bot"
+            },
+            {
+              "type": "after",
+              "from": "name"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  
 	"showtema": {
     "run": {
       "expressions": [
