@@ -8,6 +8,9 @@
 	"activabot": {
 		"options": {}
 	},  
+	"trainbot": {
+		"options": {}
+	},    
   "showtema": {
     "options": {}
   }
