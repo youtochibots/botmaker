@@ -90,6 +90,43 @@
       ]
     }
   },
+	"trainbot": {
+    "run": {
+      "expressions": [
+        "bot x train y tema ",
+        "train y tema   into x bot"
+      ],
+      "entities": [
+        {
+          "type": "trim",
+          "name": "elbot",
+          "conditions": [
+            {
+              "type": "between",
+              "from": "bot",
+              "to":   "train"
+            },
+            {
+              "type": "between",
+              "from": "into",
+              "to"  : "bot"
+            }
+          ]
+        },
+        {
+          "type": "trim",
+          "name": "eltema",
+          "conditions": [
+            {
+              "type": "between",
+              "from": "train",
+              "to":   "tema"
+            }
+          ]
+        }        
+      ]
+    }
+  },
   
 	"showtema": {
     "run": {
