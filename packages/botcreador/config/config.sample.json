@@ -5,6 +5,9 @@
   "createmabot": {
     "options": {}
   },
+	"activabot": {
+		"options": {}
+	},  
   "showtema": {
     "options": {}
   }
