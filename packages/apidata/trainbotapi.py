@@ -27,7 +27,7 @@ def run(string, entities):
 
 	for item in entities:
 		if item['entity'] == 'elbot':
-			nombretema = item['sourceText'].lower()
+			nombrebot = item['sourceText'].lower()
 
 	url = 'https://youtochipizarron.herokuapp.com/' + nombreapi + '_' + nombrebot
 	
