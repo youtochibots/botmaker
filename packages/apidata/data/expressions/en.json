@@ -60,6 +60,43 @@
       ]
     }
   },
+	"trainbotapi": {
+    "run": {
+      "expressions": [
+        "train bot x api y",
+        "train  x add api y",
+        "add bot x  api y"
+      ],
+      "entities": [
+        {
+          "type": "trim",
+          "name": "elbot",
+          "conditions": [
+            {
+              "type": "between",
+              "from": "bot",
+              "to":   "api"
+            },
+            {
+              "type": "between",
+              "from": "train",
+              "to"  : "add"
+            }
+          ]
+        },
+        {
+          "type": "trim",
+          "name": "elapi",
+          "conditions": [
+            {
+              "type": "after",
+              "from": "api"
+            }
+          ]
+        }        
+      ]
+    }
+  },  
 	"showlinks": {
     "run": {
       "expressions": [
