@@ -3,7 +3,7 @@
   <a href="https://www.youtube.com/watch?v=p7GRGiicO1c"><img width="512" src="https://getleon.ai/img/1.0.0-beta.0_preview_en.png"></a><br>
 </p>
 
-<h1 align="center">Leonorildo </h1>
+<h1 align="center">Leonorildo Branch leonorildohero</h1>
 
 *<p align="center">Your open-source personal assistant.</p>*
 
@@ -69,7 +69,7 @@ Sounds good for you? Then let's get started!
 
 Gitpod will automatically setup an environment and run an instance for you.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/youtochibots/botmaker)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/youtochibots/botmaker/tree/leonorildohero)
 
 ## 🚀 Getting Started
 
