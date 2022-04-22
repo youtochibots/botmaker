@@ -92,7 +92,7 @@ main {
   position: absolute;
   width: 63%;
   top: 0;
-  left: 50%;
+  left: 60%;
   height: 100%;
   transform: translate(-50%, 0);
 }
