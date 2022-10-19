@@ -29,7 +29,8 @@ def run(string, entities):
 		if item['entity'] == 'eltema':
 			nombretema = item['sourceText'].lower()
 
-	url = 'https://youtochipizarron.herokuapp.com/' + nombrebot + '_' + nombretema
+	#url = 'https://youtochipizarron.herokuapp.com/' + nombrebot + '_' + nombretema
+	url = 'https://youtochipizarrin.onrender.com//' + nombrebot + '_' + nombretema
 	
 	utils.output('inter', 'checking', utils.translate('checking',{
 		'website_name': url
