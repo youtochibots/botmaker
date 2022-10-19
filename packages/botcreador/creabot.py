@@ -25,6 +25,7 @@ def run(string, entities):
 			
 	# url = 'https://youtochipizarron.herokuapp.com/entrenar' + nombrebot
 	
+	#url = 'https://youtochibotas.herokuapp.com/v1/api/redisroomallcards/miembrosfamiliaveracruz-cards' 
 	url = 'https://youtochibotas.herokuapp.com/v1/api/redisroomallcards/miembrosfamiliaveracruz-cards' 
 	
 	utils.output('inter', 'checking', utils.translate('checking',{
